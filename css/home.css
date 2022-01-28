@@ -1,0 +1,124 @@
+/* Beginning of home css */
+body {
+    background-color: #5474b4;
+}
+
+.intro-text-head {
+    margin: 3rem;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.about-me h2 {
+    margin-bottom: 25px;
+}
+
+.bio {
+    text-align: center;
+    line-height: 1.5rem;
+    border-bottom: 1px solid #a7a7a798;
+}
+
+/* Interests Section */
+.interests {
+    border-bottom: 1px solid #a7a7a798;
+
+    padding: 1rem;
+}
+
+.interests h2, p {
+    text-align: center;
+}
+
+.interests ul {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.interests ol {
+    padding-left: 1rem;
+}
+
+
+/* Table Section */
+.table-area {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-area h2 {
+    margin-bottom: 10px;
+}
+
+/* Table Links */
+.table-area a {
+    text-decoration: none;
+}
+
+.table-area a:visited {
+    color: #e9b527;
+}
+
+.table-area a:hover {
+    color: lightskyblue;
+}
+.table-area a:active {
+    color: red;
+}
+
+.fav-websites {
+    border-collapse: collapse;
+    margin-top: 25px 0;
+    font-size: 0.9rem;
+    min-width: 350px;
+    text-align: left;
+}
+
+.fav-websites thead tr {
+    background-color: #184399;
+    color: white;
+    font-weight: bold;
+}
+
+.fav-websites th, td {
+    padding: 12px 15px;
+}
+
+.fav-websites tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+
+td:first-child {
+    border-right: 1px solid #a7a7a798;
+}
+
+tr:first-child {
+    border-bottom: 1px solid #a7a7a798;
+}
+
+@media only screen and (min-width: 700px) {
+    main {
+        font-size: 20px;
+        padding: 1rem;
+    }
+
+    .bio {
+        line-height: 2rem;
+    }
+
+    .fav-websites {
+        font-size: 1.1rem;
+    }
+}

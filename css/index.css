@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    background-color: #003399;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropbtn {
+    background-color: #003399;
+    color: #5B89A6;
+    border: none;
+    padding: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    left: 0;
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #c4bfbf;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #c4bfbf;
+}
+
+nav {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    display: none;
+}
+
+header ul li {
+    display: inline; 
+    list-style-type: none;
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+}
+
+header ul a:hover {
+    color: #474555;
+    transition: 1 1s 1 1;
+}
+
+#self {
+    justify-self: center;
+}
+
+#intro-content {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 40%;
+}
+
+/* Footer Styling */
+
+.inner-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #a7a7a798;
+    padding: 1rem;
+}
+
+.inner-footer h3 {
+    font-size: 1rem;
+}
+.social-links {
+    display: inline-flex;
+    text-decoration: none;
+    border-left: 1px solid #a7a7a798;
+}
+
+.social-items {
+    padding: 1rem;
+}
+
+.outer-footer {
+    background-color: #003399;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 700px) {
+
+    nav {
+        display: inline-flex;
+        justify-content: flex-end;
+
+    }
+
+    .dropbtn {
+        display: none;
+    }
+
+    .avatar {
+        width: 25%;
+    }
+
+    
+}
