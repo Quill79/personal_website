@@ -122,3 +122,10 @@ tr:first-child {
         font-size: 1.1rem;
     }
 }
+
+@media only screen and (min-width: 1080px) {
+    .about-me {
+        max-width: 75%;
+        margin: 25px auto;
+    }
+}
