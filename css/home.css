@@ -1,7 +1,26 @@
-/* Beginning of home css */
 body {
     background-color: #5474b4;
 }
+
+main {
+    margin: 0;
+    padding-top: 0;
+}
+
+#intro-content {
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #003399;
+}
+
+img {
+    width: 40%;
+}
+
 
 .intro-text-head {
     margin: 3rem;
@@ -12,7 +31,6 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-
 }
 
 .about-me h2 {
@@ -28,7 +46,6 @@ body {
 /* Interests Section */
 .interests {
     border-bottom: 1px solid #a7a7a798;
-
     padding: 1rem;
 }
 
@@ -111,7 +128,7 @@ tr:first-child {
 @media only screen and (min-width: 700px) {
     main {
         font-size: 20px;
-        padding: 1rem;
+
     }
 
     .bio {
