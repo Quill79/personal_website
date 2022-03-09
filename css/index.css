@@ -65,6 +65,15 @@ header {
 }
 
 /* Navbar */
+
+.slider {
+    background-color: green;
+    position: absolute;
+    width: 40%;
+    height: 100px;
+    z-index: -1;
+}
+
 nav {
     padding-top: 1rem;
     padding-left: 2rem;
@@ -124,6 +133,7 @@ header ul a:active {
 
 .social-items {
     padding: 1rem;
+    color: white;
 }
 
 .social-items:visited {
